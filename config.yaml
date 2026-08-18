@@ -1,0 +1,121 @@
+# ============================================================
+# Funding Radar config — tune this, not the code.
+# ============================================================
+
+gmail_folder: "INBOX"        # or a Gmail label, e.g. "Alerts"
+max_links_per_email: 15
+max_telegram_per_run: 12
+keep_opportunities: 400
+
+# Set true once your field terms are dialled in. Cuts noise hard,
+# but will drop anything phrased unusually. Start false.
+require_field_match: false
+
+# false (default): LEVEL alone is enough to survive — postgrad postings
+# with no funding/fee-waiver language still get through, just scored lower
+# than funded ones (see FUNDING below). This is what surfaces plain
+# "applications open"/deadline announcements, not just funded positions.
+# true: reverts to LEVEL *and* FUNDING both required.
+require_funding_match: false
+
+# ------------------------------------------------------------
+# An item must always hit LEVEL. FUNDING is an extra required gate only
+# when require_funding_match is true above — otherwise it just adds score.
+# ------------------------------------------------------------
+
+level_terms:
+  - phd
+  - doctoral
+  - doctorate
+  - msc
+  - m.sc
+  - master
+  - masters
+  - graduate program
+  - graduate programme
+  - postgraduate
+  - mphil
+
+funding_terms:
+  - fully funded
+  - full funding
+  - fully-funded
+  - scholarship
+  - fellowship
+  - stipend
+  - bursary
+  - tuition waiver
+  - tuition fee waiver
+  - funded position
+  - funded phd
+  - salaried
+  - assistantship
+  - studentship
+  - grant
+  - no tuition
+  - covers tuition
+
+# ------------------------------------------------------------
+# YOUR FIELD. Replace these with your actual subfield terms —
+# this is the single highest-leverage edit in the whole repo.
+# ------------------------------------------------------------
+
+field_terms:
+  - engineering
+  - computer science
+  - machine learning
+  - artificial intelligence
+  - data science
+  - materials
+  - mechanical
+  - electrical
+  - civil engineering
+  - chemical engineering
+  - renewable energy
+  - robotics
+  - physics
+  - mathematics
+  - biomedical
+
+# ------------------------------------------------------------
+# Kill list. Postdoc and undergrad noise is the bulk of it.
+# ------------------------------------------------------------
+
+exclude_terms:
+  - postdoc
+  - post-doc
+  - postdoctoral
+  - undergraduate scholarship
+  - high school
+  - webinar
+  - summer camp
+  - your application was
+  - password
+  - verify your email
+
+# ------------------------------------------------------------
+# RSS feeds. Google Alerts is the workhorse — create alerts at
+# google.com/alerts, set "Deliver to: RSS feed", paste URLs here.
+# ------------------------------------------------------------
+
+rss_feeds:
+  - name: "Google Alert — funded PhD"
+    url: "PASTE_YOUR_GOOGLE_ALERT_RSS_URL_HERE"
+  - name: "Google Alert — fully funded masters scholarship"
+    url: "PASTE_YOUR_GOOGLE_ALERT_RSS_URL_HERE"
+  - name: "Google Alert — your subfield + scholarship"
+    url: "PASTE_YOUR_GOOGLE_ALERT_RSS_URL_HERE"
+
+# ------------------------------------------------------------
+# EMAIL SOURCES — subscribe by hand once, then IMAP does the rest.
+# Not read by the code. This is your checklist.
+#
+#   [ ] Euraxess          — account > saved search > email alerts
+#   [ ] jobs.ac.uk        — job alert by discipline
+#   [ ] FindAPhD          — PhD alert by subject
+#   [ ] Nature Careers    — job alert
+#   [ ] AcademicPositions — job alert
+#   [ ] LinkedIn Jobs     — saved search alert (email, never scraped)
+#   [ ] ScholarshipsAds / OpportunityDesk / ScholarshipRegion newsletters
+#   [ ] Target university graduate-admissions mailing lists
+# ------------------------------------------------------------
