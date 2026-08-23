@@ -84,6 +84,14 @@ Flow: `apply_telegram_callbacks()` → `ingest_gmail() + ingest_rss()` → `remi
   ones, even though funded/fee-waived stays the priority.
 - Gmail messages are marked `\Seen` after processing — that's the read cursor.
   Never process `ALL`; it will re-alert the entire inbox.
+- Every dynamic string going into a `telegram()` call must pass through
+  `esc()` first. Telegram's `parse_mode: "HTML"` parses the *entire* message,
+  and an email `source` value is built from the raw `From` header — literally
+  `Display Name <email@address>` — so an unescaped hit silently 400s on every
+  single email-sourced item, forever, with `telegram()`'s own `except` block
+  swallowing it unless you check the response status too (it doesn't raise on
+  a non-200). This was found live: every test alert failed for this exact
+  reason before the `esc()` fix went in.
 - Telegram's inline Track/Dismiss buttons have no server to call back to. Each
   run starts with `apply_telegram_callbacks()`, which polls `getUpdates` with
   the offset saved in `data/tg_offset.json` as the read cursor — the same role
