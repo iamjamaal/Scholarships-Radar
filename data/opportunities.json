@@ -1,1 +1,19 @@
-[]
+[
+ {
+  "id": "c6ee8f58af844a70",
+  "title": "Fully funded PhD position in Computer Science \u2014 apply now",
+  "url": "https://example.edu/apply",
+  "source": "email \u00b7 Noah Jamal Nabila <jamalnabila3709@gmail.com>",
+  "score": 13,
+  "reasons": [
+   "funding: fully funded, stipend, funded phd",
+   "field: computer science",
+   "level: phd"
+  ],
+  "funded": true,
+  "deadline": "1 December 2026",
+  "opens": "",
+  "found": "2026-08-23T15:27:03+00:00",
+  "status": "New"
+ }
+]
