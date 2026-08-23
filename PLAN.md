@@ -12,9 +12,9 @@ check. Do not start a task until the one before it passes.
 | # | Task | State |
 |---|---|---|
 | 0 | Watcher pipeline (`watcher.py`) | ✅ done, tested |
-| 1 | GitHub Actions schedule | ✅ done, untested live |
+| 1 | GitHub Actions schedule | ✅ done, tested live |
 | 2 | Dashboard shell (`web/funding-board.jsx`) | ✅ done |
-| 3 | Deploy + secrets | ⬜ human, not Claude Code |
+| 3 | Deploy + secrets | ✅ done — live workflow run + Telegram delivery confirmed |
 | 4 | Extract seed data from the component | ✅ done |
 | 5 | Wire dashboard to radar output | ✅ done |
 | 6 | Triage: promote a hit into a tracked target | ✅ done |
@@ -33,6 +33,13 @@ workflow manually once.
 
 **Accept when:** a manual workflow run completes green and a Telegram message
 arrives.
+
+**Done.** Along the way, live testing surfaced and fixed a real bug: `telegram()`
+was silently failing on every email-sourced hit because the sender's raw
+`Display Name <email@address>` broke Telegram's HTML parser, and the function
+swallowed the error (no log, no raised exception on a non-200 response). Fixed
+by escaping dynamic content through `esc()` before sending — see the invariant
+in `CLAUDE.md`.
 
 ---
 
