@@ -18,6 +18,7 @@ import re
 import json
 import time
 import email
+import html
 import imaplib
 import smtplib
 import hashlib
@@ -111,6 +112,13 @@ def clean(text):
     text = re.sub(r"<[^>]+>", " ", text or "")
     text = re.sub(r"&[a-z]+;", " ", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def esc(text):
+    """Escape for Telegram's parse_mode=HTML. Email 'From' headers routinely
+    contain a raw <email@address> — unescaped, Telegram's parser reads that
+    as an unclosed tag and rejects the whole message with a 400."""
+    return html.escape(str(text or ""))
 
 
 def decode_subject(raw):
@@ -455,22 +463,22 @@ def email_digest(hits):
         return
     rows = []
     for h in hits:
-        dl = f"<br><b>Deadline seen:</b> {h['deadline']} (unverified)" if h["deadline"] else ""
-        op = f"<br><b>Opens seen:</b> {h['opens']} (unverified)" if h.get("opens") else ""
+        dl = f"<br><b>Deadline seen:</b> {esc(h['deadline'])} (unverified)" if h["deadline"] else ""
+        op = f"<br><b>Opens seen:</b> {esc(h['opens'])} (unverified)" if h.get("opens") else ""
         tag = " · 💰 funded" if h.get("funded") else " · no funding signal"
         rows.append(
             f"<li style='margin-bottom:14px'>"
-            f"<a href='{h['url']}'>{h['title']}</a><br>"
-            f"<span style='color:#666;font-size:12px'>{h['source']} · score {h['score']}{tag}</span>"
+            f"<a href='{esc(h['url'])}'>{esc(h['title'])}</a><br>"
+            f"<span style='color:#666;font-size:12px'>{esc(h['source'])} · score {h['score']}{tag}</span>"
             f"{dl}{op}</li>"
         )
-    html = (
+    body_html = (
         f"<h2>Funding Radar — {len(hits)} new</h2>"
         f"<ul style='font-family:sans-serif;font-size:14px'>{''.join(rows)}</ul>"
         f"<p style='color:#888;font-size:12px'>Dates are auto-extracted and often wrong. "
         f"Always confirm on the official page.</p>"
     )
-    msg = MIMEText(html, "html", "utf-8")
+    msg = MIMEText(body_html, "html", "utf-8")
     msg["Subject"] = f"Funding Radar: {len(hits)} new opportunit{'y' if len(hits)==1 else 'ies'}"
     msg["From"] = GMAIL_USER
     msg["To"] = DIGEST_TO
@@ -545,8 +553,8 @@ def remind():
             continue
 
         telegram(
-            f"⏰ <b>{days} day{'s' if days != 1 else ''} left</b> — {t.get('name', '(untitled target)')}\n"
-            f"Deadline: {t['deadline']} · {t.get('institution', '')}"
+            f"⏰ <b>{days} day{'s' if days != 1 else ''} left</b> — {esc(t.get('name', '(untitled target)'))}\n"
+            f"Deadline: {esc(t['deadline'])} · {esc(t.get('institution', ''))}"
         )
         new_fires.append(key)
 
@@ -600,13 +608,13 @@ def main():
     log(f"{len(hits)} passed the filter")
 
     for h in hits[:MAX_TELEGRAM_PER_RUN]:
-        dl = f"\n<b>Deadline seen:</b> {h['deadline']} (unverified)" if h["deadline"] else ""
-        op = f"\n<b>Opens seen:</b> {h['opens']} (unverified)" if h.get("opens") else ""
+        dl = f"\n<b>Deadline seen:</b> {esc(h['deadline'])} (unverified)" if h["deadline"] else ""
+        op = f"\n<b>Opens seen:</b> {esc(h['opens'])} (unverified)" if h.get("opens") else ""
         tag = " · 💰 funded" if h.get("funded") else " · no funding signal"
         telegram(
-            f"<b>{h['title'][:120]}</b>\n"
-            f"<i>{h['source'][:70]}</i> · score {h['score']}{tag}{dl}{op}\n"
-            f"{h['url']}",
+            f"<b>{esc(h['title'][:120])}</b>\n"
+            f"<i>{esc(h['source'][:70])}</i> · score {h['score']}{tag}{dl}{op}\n"
+            f"{esc(h['url'])}",
             reply_markup=track_dismiss_keyboard(h["id"]),
         )
         time.sleep(0.4)
