@@ -1,5 +1,21 @@
 [
  {
+  "id": "932766ac8971538a",
+  "title": "Fully funded doctoral fellowship in AI \u2014 new opening",
+  "url": "https://example.edu/apply-ai-fellowship-2027",
+  "source": "email \u00b7 Noah Jamal <noahjamal303@gmail.com>",
+  "score": 10,
+  "reasons": [
+   "funding: fully funded, fellowship, stipend",
+   "level: doctoral"
+  ],
+  "funded": true,
+  "deadline": "5 January 2027",
+  "opens": "",
+  "found": "2026-08-23T22:01:59+00:00",
+  "status": "New"
+ },
+ {
   "id": "bb11c9df2ddede88",
   "title": "Funded PhD studentship in Robotics \u2014 closes in weeks",
   "url": "https://example.edu/apply-robotics-2026",
