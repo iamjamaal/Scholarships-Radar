@@ -339,6 +339,7 @@ TG_OFFSET_PATH = DATA / "tg_offset.json"
 
 def telegram(text, reply_markup=None):
     if not (TG_TOKEN and TG_CHAT):
+        log("telegram: no credentials, skipping")
         return
     payload = {
         "chat_id": TG_CHAT,
@@ -349,11 +350,13 @@ def telegram(text, reply_markup=None):
     if reply_markup:
         payload["reply_markup"] = reply_markup
     try:
-        requests.post(
+        r = requests.post(
             f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
             json=payload,
             timeout=20,
         )
+        if r.status_code != 200:
+            log(f"telegram error: HTTP {r.status_code} — {r.text[:300]}")
     except Exception as e:
         log(f"telegram error: {e}")
 
@@ -377,6 +380,7 @@ def apply_telegram_callbacks():
     Telegram from redelivering an update we already saw.
     """
     if not (TG_TOKEN and TG_CHAT):
+        log("telegram: no credentials, skipping callback poll")
         return
 
     offset = 0
