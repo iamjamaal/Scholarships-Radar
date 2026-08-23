@@ -1,5 +1,22 @@
 [
  {
+  "id": "bb11c9df2ddede88",
+  "title": "Funded PhD studentship in Robotics \u2014 closes in weeks",
+  "url": "https://example.edu/apply-robotics-2026",
+  "source": "email \u00b7 Noah Jamal <noahjamal303@gmail.com>",
+  "score": 15,
+  "reasons": [
+   "funding: fully funded, tuition waiver, funded phd",
+   "field: robotics",
+   "level: phd"
+  ],
+  "funded": true,
+  "deadline": "20 October 2026",
+  "opens": "",
+  "found": "2026-08-23T16:36:56+00:00",
+  "status": "New"
+ },
+ {
   "id": "972115912fde1aea",
   "title": "Funded MSc scholarship in Data Engineering \u2014 deadline soon",
   "url": "https://example.edu/apply-msc-202",
