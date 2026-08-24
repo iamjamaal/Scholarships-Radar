@@ -13,5 +13,40 @@
   "ingested": 1,
   "passed": 1,
   "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 \"fully funded\" PhD 2027 data science": {
+  "ingested": 3,
+  "passed": 3,
+  "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 Chevening Scholarship 2027 deadline": {
+  "ingested": 3,
+  "passed": 0,
+  "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 Mastercard Foundation Scholars Program 2027": {
+  "ingested": 4,
+  "passed": 3,
+  "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 funded PhD studentship data science Europe": {
+  "ingested": 1,
+  "passed": 1,
+  "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 scholarship 2027 AI deadline": {
+  "ingested": 1,
+  "passed": 1,
+  "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 scholarship 2027 computer engineering deadline": {
+  "ingested": 1,
+  "passed": 0,
+  "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 scholarship 2027 computer science deadline": {
+  "ingested": 1,
+  "passed": 0,
+  "tracked": 0
  }
 }
