@@ -29,9 +29,14 @@
   "passed": 0,
   "tracked": 0
  },
+ "rss \u00b7 Google Alert \u2014 Fulbright Foreign Student Program 2027": {
+  "ingested": 1,
+  "passed": 0,
+  "tracked": 0
+ },
  "rss \u00b7 Google Alert \u2014 Mastercard Foundation Scholars Program 2027": {
-  "ingested": 9,
-  "passed": 7,
+  "ingested": 15,
+  "passed": 12,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position Artificial Intelligence funded 2027": {
@@ -57,6 +62,11 @@
  "rss \u00b7 Google Alert \u2014 funded PhD studentship data science Europe": {
   "ingested": 1,
   "passed": 1,
+  "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 graduate application fee waiver international students 2027": {
+  "ingested": 1,
+  "passed": 0,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 AI deadline": {
