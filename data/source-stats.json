@@ -20,8 +20,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" masters scholarship 2027 international students": {
-  "ingested": 22,
-  "passed": 18,
+  "ingested": 25,
+  "passed": 21,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Australia Awards Scholarship 2027": {
@@ -39,14 +39,19 @@
   "passed": 0,
   "tracked": 0
  },
+ "rss \u00b7 Google Alert \u2014 Gates Cambridge Scholarship 2027": {
+  "ingested": 1,
+  "passed": 1,
+  "tracked": 0
+ },
  "rss \u00b7 Google Alert \u2014 Mastercard Foundation Scholars Program 2027": {
-  "ingested": 42,
-  "passed": 38,
+  "ingested": 47,
+  "passed": 43,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position Artificial Intelligence funded 2027": {
-  "ingested": 8,
-  "passed": 6,
+  "ingested": 12,
+  "passed": 9,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer engineering funded 2027": {
