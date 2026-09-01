@@ -15,8 +15,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" PhD 2027 data science": {
-  "ingested": 37,
-  "passed": 28,
+  "ingested": 44,
+  "passed": 35,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" masters scholarship 2027 international students": {
@@ -30,7 +30,7 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Chevening Scholarship 2027 deadline": {
-  "ingested": 48,
+  "ingested": 50,
   "passed": 8,
   "tracked": 0
  },
@@ -45,8 +45,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Mastercard Foundation Scholars Program 2027": {
-  "ingested": 51,
-  "passed": 47,
+  "ingested": 64,
+  "passed": 60,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD application fee waiver computer science 2027": {
@@ -60,18 +60,18 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer engineering funded 2027": {
-  "ingested": 10,
-  "passed": 9,
+  "ingested": 11,
+  "passed": 10,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer networking funded 2027": {
-  "ingested": 3,
-  "passed": 3,
+  "ingested": 4,
+  "passed": 4,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer science funded 2027": {
-  "ingested": 11,
-  "passed": 9,
+  "ingested": 12,
+  "passed": 10,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position machine learning stipend 2027": {
@@ -100,8 +100,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 AI deadline": {
-  "ingested": 16,
-  "passed": 9,
+  "ingested": 18,
+  "passed": 10,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer engineering deadline": {
@@ -115,8 +115,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 machine learning deadline": {
-  "ingested": 1,
-  "passed": 1,
+  "ingested": 2,
+  "passed": 2,
   "tracked": 0
  }
 }
