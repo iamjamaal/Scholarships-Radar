@@ -25,13 +25,18 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Australia Awards Scholarship 2027": {
-  "ingested": 15,
+  "ingested": 16,
   "passed": 1,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Chevening Scholarship 2027 deadline": {
   "ingested": 72,
   "passed": 9,
+  "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 DAAD scholarship 2027 computer science": {
+  "ingested": 2,
+  "passed": 2,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Fulbright Foreign Student Program 2027": {
