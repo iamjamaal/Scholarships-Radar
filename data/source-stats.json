@@ -15,13 +15,13 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" PhD 2027 data science": {
-  "ingested": 106,
-  "passed": 88,
+  "ingested": 109,
+  "passed": 90,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" masters scholarship 2027 international students": {
-  "ingested": 298,
-  "passed": 217,
+  "ingested": 299,
+  "passed": 218,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 A*STAR Graduate Scholarship Singapore": {
@@ -35,8 +35,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Chevening Scholarship 2027 deadline": {
-  "ingested": 159,
-  "passed": 23,
+  "ingested": 161,
+  "passed": 25,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 DAAD scholarship 2027 computer science": {
@@ -52,6 +52,11 @@
  "rss \u00b7 Google Alert \u2014 Gates Cambridge Scholarship 2027": {
   "ingested": 26,
   "passed": 17,
+  "tracked": 0
+ },
+ "rss \u00b7 Google Alert \u2014 Knight-Hennessy Scholars Stanford 2027": {
+  "ingested": 1,
+  "passed": 1,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Korean Government Scholarship GKS 2027": {
@@ -80,8 +85,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer networking funded 2027": {
-  "ingested": 9,
-  "passed": 9,
+  "ingested": 10,
+  "passed": 10,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer science funded 2027": {
@@ -130,13 +135,13 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 AI deadline": {
-  "ingested": 69,
-  "passed": 27,
+  "ingested": 70,
+  "passed": 28,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer engineering deadline": {
-  "ingested": 27,
-  "passed": 13,
+  "ingested": 29,
+  "passed": 15,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer science deadline": {
