@@ -15,13 +15,13 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" PhD 2027 data science": {
-  "ingested": 148,
-  "passed": 124,
+  "ingested": 152,
+  "passed": 127,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" masters scholarship 2027 international students": {
-  "ingested": 400,
-  "passed": 283,
+  "ingested": 408,
+  "passed": 289,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 A*STAR Graduate Scholarship Singapore": {
@@ -75,13 +75,13 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position Artificial Intelligence funded 2027": {
-  "ingested": 42,
-  "passed": 35,
+  "ingested": 43,
+  "passed": 36,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer engineering funded 2027": {
-  "ingested": 60,
-  "passed": 52,
+  "ingested": 62,
+  "passed": 54,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer networking funded 2027": {
@@ -90,13 +90,13 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer science funded 2027": {
-  "ingested": 87,
-  "passed": 71,
+  "ingested": 88,
+  "passed": 72,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position machine learning stipend 2027": {
-  "ingested": 16,
-  "passed": 13,
+  "ingested": 17,
+  "passed": 14,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Rhodes Scholarship Sub-Saharan Africa 2027": {
@@ -135,23 +135,23 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 AI deadline": {
-  "ingested": 100,
+  "ingested": 101,
   "passed": 41,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer engineering deadline": {
-  "ingested": 49,
-  "passed": 19,
+  "ingested": 53,
+  "passed": 22,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer science deadline": {
-  "ingested": 69,
-  "passed": 32,
+  "ingested": 74,
+  "passed": 36,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 machine learning deadline": {
-  "ingested": 20,
-  "passed": 5,
+  "ingested": 22,
+  "passed": 6,
   "tracked": 0
  }
 }
