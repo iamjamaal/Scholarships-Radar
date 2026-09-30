@@ -75,13 +75,13 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position Artificial Intelligence funded 2027": {
-  "ingested": 43,
-  "passed": 36,
+  "ingested": 44,
+  "passed": 37,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer engineering funded 2027": {
-  "ingested": 62,
-  "passed": 54,
+  "ingested": 63,
+  "passed": 55,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer networking funded 2027": {
@@ -135,8 +135,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 AI deadline": {
-  "ingested": 101,
-  "passed": 41,
+  "ingested": 104,
+  "passed": 42,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer engineering deadline": {
@@ -150,8 +150,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 machine learning deadline": {
-  "ingested": 22,
-  "passed": 6,
+  "ingested": 23,
+  "passed": 7,
   "tracked": 0
  }
 }
