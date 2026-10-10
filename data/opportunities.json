@@ -1,5 +1,22 @@
 [
  {
+  "id": "6583debbeed48b98",
+  "title": "UK announces AI scholarship for PhD students - Pakistan Connect",
+  "url": "https://www.google.com/url?rct=j&sa=t&url=https://thepakistanconnect.com/uk-ai-scholarship-phd/&ct=ga&cd=CAIyGjdmYzMyYjgxODQ5YTZiYjc6Y29tOmVuOlVT&usg=AOvVaw3sYsJWGY7J8pdQpCvEyL2Y",
+  "source": "rss \u00b7 Google Alert \u2014 scholarship 2027 AI deadline",
+  "score": 9,
+  "reasons": [
+   "funding: scholarship",
+   "field: artificial intelligence",
+   "level: phd"
+  ],
+  "funded": true,
+  "deadline": "1 June 2027",
+  "opens": "",
+  "found": "2026-10-10T07:07:47+00:00",
+  "status": "New"
+ },
+ {
   "id": "a5530e6af4663e88",
   "title": "Apply for Fully Funded Aquatic Ecology PhD and Master's Assistantships at Miami University, USA",
   "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.globalsouthopportunities.com/2026/10/09/assistantships-2/&ct=ga&cd=CAIyGjdhYjkzNzA0YjZiZDhiNDE6Y29tOmVuOlVT&usg=AOvVaw0QVjWeTk9hgJWmCrRpvR5n",
@@ -6521,23 +6538,6 @@
   "reasons": [
    "funding: fellowship",
    "field: computer science, machine learning",
-   "level: phd"
-  ],
-  "funded": true,
-  "deadline": "",
-  "opens": "",
-  "found": "2026-09-28T22:01:13+00:00",
-  "status": "New"
- },
- {
-  "id": "eb848dc2739513a9",
-  "title": "Hong Kong PhD Fellowship Scheme 2027 /2028 for study in Hong Kong ( Funded )",
-  "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.opportunitiesforafricans.com/hong-kong-phd-fellowship-scheme-2027-2028-for-study-in-hong-kong/&ct=ga&cd=CAIyGjRkZjhlMDk2ZGQyNDgwOTg6Y29tOmVuOlVT&usg=AOvVaw0xsMPxH5ET_FwJrusndZNF",
-  "source": "rss \u00b7 Google Alert \u2014 PhD position computer science funded 2027",
-  "score": 12,
-  "reasons": [
-   "funding: fellowship",
-   "field: artificial intelligence, robotics",
    "level: phd"
   ],
   "funded": true,
