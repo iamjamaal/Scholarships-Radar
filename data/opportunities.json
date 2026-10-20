@@ -1,5 +1,21 @@
 [
  {
+  "id": "64728b1897b08234",
+  "title": "IISER Pune opens PhD applications for January 2027 session - The Times of India",
+  "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.educationtimes.com/news/iiser-pune-opens-phd-applications-for-january-2027-session/articleshow/135048482.cms&ct=ga&cd=CAIyGmQ0ZDRhYjVhODI1N2M1N2Q6Y29tOmVuOlVT&usg=AOvVaw3Zy6zRlJY5S5-y6EpI-JZi",
+  "source": "rss \u00b7 Google Alert \u2014 scholarship 2027 computer engineering deadline",
+  "score": 1,
+  "reasons": [
+   "no funding signal (kept \u2014 funding not required)",
+   "level: phd"
+  ],
+  "funded": false,
+  "deadline": "",
+  "opens": "",
+  "found": "2026-10-20T06:00:35+00:00",
+  "status": "New"
+ },
+ {
   "id": "b5d5b434a7f4696a",
   "title": "Climate Risk Lab Data Science and Machine Learning Fellowship 2027 for recent PhD, MSc ...",
   "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.opportunitiesforafricans.com/climate-risk-lab-data-science-and-machine-learning-fellowship-2027/&ct=ga&cd=CAIyGjdhZjMwNmEwN2M4YzVkNjc6Y29tOmVuOlVT&usg=AOvVaw2PQMEXcf-2k_PaY6imsLlm",
@@ -6513,23 +6529,6 @@
   "deadline": "",
   "opens": "",
   "found": "2026-10-07T21:58:47+00:00",
-  "status": "New"
- },
- {
-  "id": "68fa232e5b57f7c4",
-  "title": "Pakistani Students Can Apply for Fully Funded Climate Change PhD Scholarships",
-  "url": "https://www.google.com/url?rct=j&sa=t&url=https://bloompakistan.com/pakistani-students-can-apply-for-fully-funded-climate-change-phd-scholarships/&ct=ga&cd=CAIyGjRkZjhlMDk2ZGQyNDgwOTg6Y29tOmVuOlVT&usg=AOvVaw1aWCqa7eFrjt7O-TXK-H9W",
-  "source": "rss \u00b7 Google Alert \u2014 PhD position computer science funded 2027",
-  "score": 15,
-  "reasons": [
-   "funding: fully funded, scholarship, funded phd",
-   "field: computer science",
-   "level: phd"
-  ],
-  "funded": true,
-  "deadline": "",
-  "opens": "",
-  "found": "2026-10-07T16:28:40+00:00",
   "status": "New"
  }
 ]
