@@ -15,8 +15,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" PhD 2027 data science": {
-  "ingested": 277,
-  "passed": 233,
+  "ingested": 278,
+  "passed": 234,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" masters scholarship 2027 international students": {
@@ -30,8 +30,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Australia Awards Scholarship 2027": {
-  "ingested": 119,
-  "passed": 22,
+  "ingested": 120,
+  "passed": 23,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Chevening Scholarship 2027 deadline": {
@@ -55,8 +55,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Gates Cambridge Scholarship 2027": {
-  "ingested": 38,
-  "passed": 24,
+  "ingested": 52,
+  "passed": 38,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Knight-Hennessy Scholars Stanford 2027": {
@@ -70,8 +70,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Mastercard Foundation Scholars Program 2027": {
-  "ingested": 266,
-  "passed": 252,
+  "ingested": 271,
+  "passed": 257,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD application fee waiver computer science 2027": {
@@ -80,8 +80,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position Artificial Intelligence funded 2027": {
-  "ingested": 81,
-  "passed": 61,
+  "ingested": 82,
+  "passed": 62,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer engineering funded 2027": {
@@ -95,13 +95,13 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer science funded 2027": {
-  "ingested": 155,
-  "passed": 126,
+  "ingested": 156,
+  "passed": 127,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position machine learning stipend 2027": {
-  "ingested": 46,
-  "passed": 37,
+  "ingested": 47,
+  "passed": 38,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Rhodes Scholarship Sub-Saharan Africa 2027": {
@@ -110,8 +110,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Swiss Government Excellence Scholarship 2027": {
-  "ingested": 26,
-  "passed": 7,
+  "ingested": 27,
+  "passed": 8,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 University of Melbourne Graduate Research Scholarship 2027": {
@@ -130,8 +130,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 funded PhD studentship networking Europe 2027": {
-  "ingested": 19,
-  "passed": 12,
+  "ingested": 21,
+  "passed": 14,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 graduate application fee waiver international students 2027": {
@@ -140,22 +140,22 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 AI deadline": {
-  "ingested": 233,
-  "passed": 81,
+  "ingested": 234,
+  "passed": 82,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer engineering deadline": {
-  "ingested": 144,
+  "ingested": 145,
   "passed": 57,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer science deadline": {
-  "ingested": 188,
+  "ingested": 189,
   "passed": 89,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 machine learning deadline": {
-  "ingested": 61,
+  "ingested": 63,
   "passed": 21,
   "tracked": 0
  }
