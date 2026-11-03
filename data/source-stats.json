@@ -15,13 +15,13 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" PhD 2027 data science": {
-  "ingested": 302,
-  "passed": 256,
+  "ingested": 304,
+  "passed": 258,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 \"fully funded\" masters scholarship 2027 international students": {
-  "ingested": 777,
-  "passed": 552,
+  "ingested": 778,
+  "passed": 553,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 A*STAR Graduate Scholarship Singapore": {
@@ -30,7 +30,7 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Australia Awards Scholarship 2027": {
-  "ingested": 128,
+  "ingested": 132,
   "passed": 23,
   "tracked": 0
  },
@@ -75,7 +75,7 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD application fee waiver computer science 2027": {
-  "ingested": 24,
+  "ingested": 25,
   "passed": 17,
   "tracked": 0
  },
@@ -85,8 +85,8 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer engineering funded 2027": {
-  "ingested": 122,
-  "passed": 104,
+  "ingested": 123,
+  "passed": 105,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer networking funded 2027": {
@@ -95,17 +95,17 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position computer science funded 2027": {
-  "ingested": 164,
-  "passed": 135,
+  "ingested": 165,
+  "passed": 136,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 PhD position machine learning stipend 2027": {
-  "ingested": 53,
-  "passed": 43,
+  "ingested": 54,
+  "passed": 44,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 Rhodes Scholarship Sub-Saharan Africa 2027": {
-  "ingested": 2,
+  "ingested": 3,
   "passed": 1,
   "tracked": 0
  },
@@ -140,23 +140,23 @@
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 AI deadline": {
-  "ingested": 262,
-  "passed": 89,
+  "ingested": 268,
+  "passed": 91,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer engineering deadline": {
-  "ingested": 153,
-  "passed": 59,
+  "ingested": 154,
+  "passed": 60,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 computer science deadline": {
-  "ingested": 201,
-  "passed": 93,
+  "ingested": 203,
+  "passed": 94,
   "tracked": 0
  },
  "rss \u00b7 Google Alert \u2014 scholarship 2027 machine learning deadline": {
-  "ingested": 70,
-  "passed": 23,
+  "ingested": 71,
+  "passed": 24,
   "tracked": 0
  }
 }
