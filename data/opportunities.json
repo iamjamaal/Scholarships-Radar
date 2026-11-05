@@ -1,5 +1,22 @@
 [
  {
+  "id": "ac752aa8bcbe1801",
+  "title": "UK University Offers \u00a310,000 Master's Scholarship for Pakistani Students - Bloom Pakistan",
+  "url": "https://www.google.com/url?rct=j&sa=t&url=https://bloompakistan.com/uk-university-offers-10000-masters-scholarship-for-pakistani-students/&ct=ga&cd=CAIyGmQ0ZDRhYjVhODI1N2M1N2Q6Y29tOmVuOlVT&usg=AOvVaw3LOyGzam0xcIT5wukQGPSn",
+  "source": "rss \u00b7 Google Alert \u2014 scholarship 2027 computer engineering deadline",
+  "score": 12,
+  "reasons": [
+   "funding: scholarship",
+   "field: engineering, computer science",
+   "level: master"
+  ],
+  "funded": true,
+  "deadline": "",
+  "opens": "",
+  "found": "2026-11-05T12:20:51+00:00",
+  "status": "New"
+ },
+ {
   "id": "d4c8bd046819abaa",
   "title": "The Friedrich-Ebert-Stiftung Young Leaders Programme 2027 for young Cameroonians.",
   "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.opportunitiesforafricans.com/the-friedrich-ebert-stiftung-young-leaders-programme-2027-for-young-cameroonians/&ct=ga&cd=CAIyGjE3MTZjZWM2MmYwZDcwNTc6Y29tOmVuOlVT&usg=AOvVaw2Z4HCqMYlYhdgKuVQflbjx",
@@ -6438,23 +6455,6 @@
   "deadline": "",
   "opens": "",
   "found": "2026-10-23T13:27:05+00:00",
-  "status": "New"
- },
- {
-  "id": "be3912cd3a8441da",
-  "title": "NYU Faculty Fellow Appointment in Data Science 2027 - Global South Opportunities",
-  "url": "https://www.google.com/url?rct=j&sa=t&url=https://www.globalsouthopportunities.com/2026/10/23/nyu/&ct=ga&cd=CAIyGjRiN2I3YzU3N2U0ZDFhZTE6Y29tOmVuOlVT&usg=AOvVaw0moKZBScZVuJOLJpnYjpe6",
-  "source": "rss \u00b7 Google Alert \u2014 \"fully funded\" PhD 2027 data science",
-  "score": 12,
-  "reasons": [
-   "funding: fully funded, grant",
-   "field: data science",
-   "level: phd, master"
-  ],
-  "funded": true,
-  "deadline": "",
-  "opens": "",
-  "found": "2026-10-23T07:33:02+00:00",
   "status": "New"
  }
 ]
